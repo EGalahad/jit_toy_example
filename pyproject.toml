@@ -1,0 +1,17 @@
+[project]
+name = "jit-toy-example"
+version = "0.1.0"
+description = "Dependencies for the JiT toy example notebook."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "torch",
+    "numpy",
+    "matplotlib",
+    "tqdm",
+    "scikit-learn",
+    "ipykernel",
+]
+
+[tool.uv]
+python-install-mirror = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
